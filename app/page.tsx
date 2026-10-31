@@ -76,17 +76,31 @@ const solutions: SolutionItem[] = [
   },
   {
     icon: BarChart3,
-    title: 'PMS & Alternative Investment Funds (AIFs)',
-    subtitle: 'Bespoke Strategies for HNIs & Family Offices',
-    text: 'Access specialised investment strategies and professionally managed portfolios designed for HNIs and sophisticated investors. Our solutions include Portfolio Management Services, Alternative Investment Funds, Specialised Investment Funds (SIFs), private equity opportunities and unlisted investments.',
-    tag: 'High Net-Worth',
+    title: 'PMS, AIFs & SIF Distribution',
+    subtitle: 'Bespoke Strategies for HNIs, SIFs & Family Offices',
+    text: 'Access specialised investment strategies and professionally managed portfolios designed for HNIs and sophisticated investors. Our solutions include Portfolio Management Services, Alternative Investment Funds, Specialised Investment Funds (SIF) distribution, private equity opportunities and unlisted investments.',
+    tag: 'SIF & HNIs',
     features: [
       'Discretionary & Non-Discretionary PMS',
+      'Authorized SIF (Specialised Investment Fund) distribution',
       'Category II & III Alternative Investment Funds (AIFs)',
-      'Specialised Investment Funds (SIF) allocation',
       'Unlisted equity and pre-IPO deal access'
     ],
-    category: 'PMS & Alternative Investment Funds (AIFs)',
+    category: 'PMS, AIFs & SIF Distribution',
+  },
+  {
+    icon: Globe,
+    title: 'GIFT City (IFSC) & SIF Investments',
+    subtitle: 'Cross-Border Wealth Structuring & Offshore Funds',
+    text: 'Authorized distribution for GIFT City (Gujarat International Finance Tec-City IFSC) global funds and Specialised Investment Funds (SIF). Facilitating foreign currency (USD) overseas investments, inbound India allocations with full tax efficiency, and bespoke offshore structures for HNIs, NRIs and family offices.',
+    tag: 'GIFT City & SIF',
+    features: [
+      'Authorized Specialised Investment Fund (SIF) distribution',
+      'GIFT City (IFSC) USD-denominated global fund access',
+      'Tax-optimized inbound & outbound cross-border wealth structures',
+      'Bespoke offshore AIFs & international family office capital'
+    ],
+    category: 'GIFT City & SIF Investments',
   },
   {
     icon: HeartPulse,
@@ -249,12 +263,13 @@ Office: 511, 5th Floor, I-Thum Heights, A-16, A Block, Industrial Area, Sector 6
 
 Our Core Financial Solutions:
 1. Mutual Funds & Wealth Creation (Goal SIPs, Portfolio Reviews, Rebalancing)
-2. PMS & Alternative Investment Funds (AIFs, SIFs, Unlisted Equities)
-3. Life & Health Insurance (Term Plans, Cashless Mediclaim, Critical Illness)
-4. Corporate Fixed Deposits (Crisil AAA/AA+ Rated, Senior Citizen Yields)
-5. Bonds & Sovereign Securities (G-Sec, RBI Floating Rate Bonds, Listed NCDs)
-6. Asset & General Insurance (Fire, Marine, Industrial Risk, Transit & Fleet)
-7. Loans & Financial Solutions (Home Loans, LAP, LAMF, Debt Syndication)
+2. PMS, AIFs & SIF Distribution (Authorized SIF Distributor, Category II/III AIFs, Unlisted Equities)
+3. GIFT City (IFSC) & SIF Investments (Offshore Funds, USD Global Assets, Inbound/Outbound Tax Structures)
+4. Life & Health Insurance (Term Plans, Cashless Mediclaim, Critical Illness)
+5. Corporate Fixed Deposits (Crisil AAA/AA+ Rated, Senior Citizen Yields)
+6. Bonds & Sovereign Securities (G-Sec, RBI Floating Rate Bonds, Listed NCDs)
+7. Asset & General Insurance (Fire, Marine, Industrial Risk, Transit & Fleet)
+8. Loans & Financial Solutions (Home Loans, LAP, LAMF, Debt Syndication)
 
 Why FINVESTMENTS:
 • 500+ Satisfied Families
@@ -489,7 +504,7 @@ Understand your goals, create the right financial strategy, and stay committed t
             </div>
             <div>
               <div className="text-sm sm:text-base font-extrabold text-white flex items-center gap-2">
-                AMFI Registered Mutual Fund, SIF, PMS Distributor
+                AMFI Registered Mutual Fund, SIF, PMS & GIFT City (IFSC) Distributor
                 <span className="text-[10px] bg-amber-400 text-[#0B2545] font-black px-2 py-0.5 rounded-full uppercase">
                   ARN-129236
                 </span>
@@ -678,7 +693,7 @@ Understand your goals, create the right financial strategy, and stay committed t
             </p>
           </div>
 
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {solutions.map((item, idx) => {
               const IconComp = item.icon
               return (
@@ -984,7 +999,8 @@ Understand your goals, create the right financial strategy, and stay committed t
                       className="w-full rounded-xl border border-slate-300 bg-slate-50 px-3 py-2 text-xs text-slate-900 focus:border-[#0B2545] focus:bg-white focus:outline-none"
                     >
                       <option value="Mutual Funds & Wealth Creation">Mutual Funds & Wealth Creation</option>
-                      <option value="PMS & Alternative Investment Funds (AIFs)">PMS & AIFs (HNIs)</option>
+                      <option value="PMS, AIFs & SIF Distribution">PMS, AIFs & SIF Distribution</option>
+                      <option value="GIFT City (IFSC) & SIF Investments">GIFT City (IFSC) & SIF Investments</option>
                       <option value="Life & Health Insurance">Life & Health Insurance</option>
                       <option value="Corporate Fixed Deposits">Corporate Fixed Deposits</option>
                       <option value="Bonds & Sovereign Securities">Bonds & Sovereign Securities</option>

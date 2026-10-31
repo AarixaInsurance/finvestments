@@ -30,7 +30,7 @@ const COUNTRIES: CountryDetail[] = [
     name: 'United States',
     flag: '🇺🇸',
     city: 'New York, SF, Dallas',
-    popularServices: ['FATCA Compliant Mutual Funds', 'Portfolio Management Services (PMS)', 'Repatriation Guidance'],
+    popularServices: ['FATCA Compliant Mutual Funds', 'GIFT City / SIF Alternatives', 'Repatriation Guidance'],
     timezone: 'EST / PST Desk',
   },
   {
@@ -46,7 +46,7 @@ const COUNTRIES: CountryDetail[] = [
     name: 'United Kingdom',
     flag: '🇬🇧',
     city: 'London, Manchester',
-    popularServices: ['UK Tax Year End Portfolio Planning', 'Alternative Investment Funds (AIFs)', 'Fixed Income Bonds'],
+    popularServices: ['GIFT City (IFSC) Portfolio Planning', 'Alternative Investment Funds (AIFs & SIFs)', 'Fixed Income Bonds'],
     timezone: 'GMT Desk',
   },
   {
@@ -54,7 +54,7 @@ const COUNTRIES: CountryDetail[] = [
     name: 'United Arab Emirates',
     flag: '🇦🇪',
     city: 'Dubai, Abu Dhabi',
-    popularServices: ['Zero Tax In India Repatriation', 'Specialised Investment Funds (SIF)', 'High-Yield Corporate FDs'],
+    popularServices: ['GIFT City (IFSC) Tax-Free Repatriation', 'Specialised Investment Funds (SIF)', 'High-Yield Corporate FDs'],
     timezone: 'GST Desk',
   },
   {
@@ -62,7 +62,7 @@ const COUNTRIES: CountryDetail[] = [
     name: 'Singapore',
     flag: '🇸🇬',
     city: 'Singapore Central',
-    popularServices: ['Cross-Border Wealth Structuring', 'Sovereign Debt Allocation', 'Multi-Asset PMS'],
+    popularServices: ['GIFT City USD Inbound Allocation', 'Specialised Investment Funds (SIF)', 'Multi-Asset PMS'],
     timezone: 'SGT Desk',
   },
   {
