@@ -20,7 +20,6 @@ interface CountryDetail {
   name: string
   flag: string
   city: string
-  investors: string
   popularServices: string[]
   timezone: string
 }
@@ -31,7 +30,6 @@ const COUNTRIES: CountryDetail[] = [
     name: 'United States',
     flag: '🇺🇸',
     city: 'New York, SF, Dallas',
-    investors: '120+ Families',
     popularServices: ['FATCA Compliant Mutual Funds', 'Portfolio Management Services (PMS)', 'Repatriation Guidance'],
     timezone: 'EST / PST Desk',
   },
@@ -40,7 +38,6 @@ const COUNTRIES: CountryDetail[] = [
     name: 'Canada',
     flag: '🇨🇦',
     city: 'Toronto, Vancouver',
-    investors: '60+ Families',
     popularServices: ['NRE/NRO Banking Integration', 'Long-term Equity SIPs', 'Real Estate Liquidity Planning'],
     timezone: 'EST Desk',
   },
@@ -49,7 +46,6 @@ const COUNTRIES: CountryDetail[] = [
     name: 'United Kingdom',
     flag: '🇬🇧',
     city: 'London, Manchester',
-    investors: '75+ Families',
     popularServices: ['UK Tax Year End Portfolio Planning', 'Alternative Investment Funds (AIFs)', 'Fixed Income Bonds'],
     timezone: 'GMT Desk',
   },
@@ -58,7 +54,6 @@ const COUNTRIES: CountryDetail[] = [
     name: 'United Arab Emirates',
     flag: '🇦🇪',
     city: 'Dubai, Abu Dhabi',
-    investors: '110+ Families',
     popularServices: ['Zero Tax In India Repatriation', 'Specialised Investment Funds (SIF)', 'High-Yield Corporate FDs'],
     timezone: 'GST Desk',
   },
@@ -67,7 +62,6 @@ const COUNTRIES: CountryDetail[] = [
     name: 'Singapore',
     flag: '🇸🇬',
     city: 'Singapore Central',
-    investors: '45+ Families',
     popularServices: ['Cross-Border Wealth Structuring', 'Sovereign Debt Allocation', 'Multi-Asset PMS'],
     timezone: 'SGT Desk',
   },
@@ -76,7 +70,6 @@ const COUNTRIES: CountryDetail[] = [
     name: 'Australia',
     flag: '🇦🇺',
     city: 'Sydney, Melbourne',
-    investors: '50+ Families',
     popularServices: ['DTAA Tax Benefit Advisory', 'Goal SIPs for Retirement in India', 'Health Insurance in India'],
     timezone: 'AEST Desk',
   },
@@ -85,7 +78,6 @@ const COUNTRIES: CountryDetail[] = [
     name: 'New Zealand',
     flag: '🇳🇿',
     city: 'Auckland, Wellington',
-    investors: '20+ Families',
     popularServices: ['Direct AMFI Allocation', 'Inheritance & Estate Planning', 'Capital Gains Auditing'],
     timezone: 'NZST Desk',
   },
@@ -94,7 +86,6 @@ const COUNTRIES: CountryDetail[] = [
     name: 'Spain',
     flag: '🇪🇸',
     city: 'Madrid, Barcelona',
-    investors: '15+ Families',
     popularServices: ['EU Regulatory NRI Desk', 'Equities & Debt Advisory', 'Sovereign Securities'],
     timezone: 'CET Desk',
   },
@@ -103,7 +94,6 @@ const COUNTRIES: CountryDetail[] = [
     name: 'Sweden',
     flag: '🇸🇪',
     city: 'Stockholm',
-    investors: '15+ Families',
     popularServices: ['Nordic NRI Wealth Desk', 'Index & Multi-Asset Strategies', 'Family Mediclaim in India'],
     timezone: 'CET Desk',
   },
@@ -112,7 +102,6 @@ const COUNTRIES: CountryDetail[] = [
     name: 'South Africa',
     flag: '🇿🇦',
     city: 'Johannesburg, Cape Town',
-    investors: '25+ Families',
     popularServices: ['FEMA Compliant Remittances', 'Corporate Fixed Deposits', 'Term Life Cover in India'],
     timezone: 'SAST Desk',
   },
@@ -206,7 +195,7 @@ export default function GlobalPresenceSection({
                   <div className={`text-xs font-bold truncate ${isSelected ? 'text-white' : 'text-slate-200'}`}>
                     {c.name}
                   </div>
-                  <div className="text-[10px] text-blue-300/80 truncate">{c.investors}</div>
+                  <div className="text-[10px] text-blue-300/80 truncate">{c.city}</div>
                 </div>
               </button>
             )
@@ -221,7 +210,7 @@ export default function GlobalPresenceSection({
                 <span className="text-4xl">{selectedCountry.flag}</span>
                 <div>
                   <h3 className="text-xl font-extrabold text-white">{selectedCountry.name}</h3>
-                  <p className="text-xs text-amber-300 font-semibold">{selectedCountry.investors}</p>
+                  <p className="text-xs text-amber-300 font-semibold">NRI Wealth & Advisory Desk</p>
                 </div>
               </div>
               <p className="text-xs text-blue-200 pt-1">
