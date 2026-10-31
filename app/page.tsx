@@ -103,60 +103,46 @@ const solutions: SolutionItem[] = [
     category: 'GIFT City & SIF Investments',
   },
   {
-    icon: HeartPulse,
-    title: 'Life & Health Insurance',
-    subtitle: 'Comprehensive Family Risk & Medical Coverage',
-    text: "Protect your family's financial future with comprehensive life insurance, term plans, health insurance and critical illness coverage. We help you evaluate and compare suitable insurance solutions from leading providers.",
-    tag: 'Family Protection',
-    features: [
-      'Pure risk high-coverage term insurance plans',
-      '100% cashless family mediclaim & top-up covers',
-      'Critical illness riders and personal accident security',
-      'End-to-end dedicated claim settlement desk'
-    ],
-    category: 'Life & Health Insurance',
-  },
-  {
-    icon: CircleDollarSign,
-    title: 'Corporate Fixed Deposits',
-    subtitle: 'High-Yield Fixed Income Instruments',
-    text: 'Explore fixed-income investment opportunities through carefully evaluated corporate fixed deposit offerings from established companies, subject to their credit ratings and associated risks.',
-    tag: 'Predictable Income',
-    features: [
-      'Crisil / ICRA AAA & AA+ rated corporate issuers',
-      'Monthly, quarterly, half-yearly & cumulative payouts',
-      'Special interest rate benefits for senior citizens',
-      'Superior risk-adjusted yield compared to regular savings'
-    ],
-    category: 'Corporate Fixed Deposits',
-  },
-  {
     icon: Landmark,
-    title: 'Bonds & Sovereign Securities',
-    subtitle: 'Capital Preservation with Guaranteed Cash Flows',
-    text: 'Diversify your portfolio through Government Securities (G-Sec), RBI Floating Rate Savings Bonds, corporate bonds, non-convertible debentures (NCDs) and other fixed-income instruments.',
-    tag: 'Sovereign Security',
+    title: 'Corporate Deposits & Bonds',
+    subtitle: 'High-Yield Fixed Income & Sovereign Debt Securities',
+    text: 'Preserve capital and generate predictable cash flows through curated corporate fixed deposits and fixed-income debt securities. Access AAA & AA+ rated corporate FDs, Government Securities (G-Sec), RBI Floating Rate Savings Bonds, and listed Non-Convertible Debentures (NCDs).',
+    tag: 'Deposits & Bonds',
     features: [
-      '100% sovereign backing on Government Securities',
-      'RBI Floating Rate Savings Bonds advisory',
-      'Listed high-coupon Non-Convertible Debentures',
-      'Semi-annual and annual coupon income streams'
+      'Crisil / ICRA AAA & AA+ rated corporate fixed deposits',
+      '100% sovereign-backed Government Securities (G-Sec) & RBI Bonds',
+      'Monthly, quarterly, cumulative and semi-annual coupon payouts',
+      'Special interest rate benefits for senior citizens and high yields'
     ],
-    category: 'Bonds & Sovereign Securities',
+    category: 'Corporate Deposits & Bonds',
   },
   {
-    icon: ShieldCheck,
-    title: 'Asset & General Insurance',
-    subtitle: 'Commercial, Property & Business Safeguards',
-    text: 'Protect your business, property and valuable assets through comprehensive insurance solutions, including fire, marine, machinery, transit, fleet and other commercial insurance requirements.',
-    tag: 'Asset Security',
+    icon: Briefcase,
+    title: 'Unlisted Shares & Private Equity',
+    subtitle: 'Pre-IPO Opportunities & Late-Stage Venture Growth',
+    text: 'Access high-growth unlisted enterprises, tech unicorn pre-IPOs, and private equity deals before they hit public stock exchanges. We provide access to thoroughly vetted unlisted equity shares with transparent depository transfer directly into your demat account.',
+    tag: 'Pre-IPO & Growth',
     features: [
-      'Industrial All Risk & Standard Fire policies',
-      'Marine cargo & transit protection coverage',
-      'Plant, machinery breakdown and business interruption',
-      'Commercial fleet and vehicle insurance management'
+      'Access to leading tech unicorns & mature pre-IPO companies',
+      'Direct demat transfer (CDSL / NSDL) with full regulatory compliance',
+      'Research-backed valuation and fundamentals screening',
+      'Liquidity assistance and exit structuring support'
     ],
-    category: 'Asset & General Insurance',
+    category: 'Unlisted Shares & Private Equity',
+  },
+  {
+    icon: HeartPulse,
+    title: 'Life, Health & General Insurance',
+    subtitle: 'Comprehensive Family Risk, Medical & Asset Protection',
+    text: "Protect your family's future and safeguard commercial assets with all-inclusive insurance solutions. From high-cover term insurance and 100% cashless family mediclaim to commercial fire, marine, plant machinery, and vehicle insurance.",
+    tag: '360° Risk Protection',
+    features: [
+      'Pure risk high-coverage term life insurance plans',
+      '100% cashless family mediclaim, critical illness & top-up covers',
+      'Commercial fire, marine cargo, machinery breakdown & transit covers',
+      'Dedicated claim settlement assistance desk across all insurers'
+    ],
+    category: 'Life, Health & General Insurance',
   },
   {
     icon: BadgePercent,
@@ -258,18 +244,17 @@ Established in 2016 | 16+ Years Experience
 
 Website: www.finvestments.in
 Email: advice@finvestments.net
-Phone: +91 98101 21834
+Official WhatsApp: +91 98101 21834
 Office: 511, 5th Floor, I-Thum Heights, A-16, A Block, Industrial Area, Sector 62, Noida, Uttar Pradesh – 201309.
 
 Our Core Financial Solutions:
 1. Mutual Funds & Wealth Creation (Goal SIPs, Portfolio Reviews, Rebalancing)
 2. PMS, AIFs & SIF Distribution (Authorized SIF Distributor, Category II/III AIFs, Unlisted Equities)
 3. GIFT City (IFSC) & SIF Investments (Offshore Funds, USD Global Assets, Inbound/Outbound Tax Structures)
-4. Life & Health Insurance (Term Plans, Cashless Mediclaim, Critical Illness)
-5. Corporate Fixed Deposits (Crisil AAA/AA+ Rated, Senior Citizen Yields)
-6. Bonds & Sovereign Securities (G-Sec, RBI Floating Rate Bonds, Listed NCDs)
-7. Asset & General Insurance (Fire, Marine, Industrial Risk, Transit & Fleet)
-8. Loans & Financial Solutions (Home Loans, LAP, LAMF, Debt Syndication)
+4. Corporate Deposits & Bonds (Crisil AAA/AA+ Rated FDs, G-Sec, RBI Floating Rate Bonds)
+5. Unlisted Shares & Private Equity (Pre-IPO Deals, Unicorn Shares, Demat Transfer)
+6. Life, Health & General Insurance (Term Plans, Cashless Mediclaim, Fire, Marine, Fleet)
+7. Loans & Financial Solutions (Home Loans, LAP, LAMF, Debt Syndication)
 
 Why FINVESTMENTS:
 • 500+ Satisfied Families
@@ -446,10 +431,12 @@ Understand your goals, create the right financial strategy, and stay committed t
               </a>
 
               <a
-                href="#contact"
+                href="https://wa.me/919810121834?text=Hello%20FINVESTMENTS,%20I%20would%20like%20to%20book%20a%20discovery%20consultation."
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-xs font-semibold text-amber-200 hover:text-white underline underline-offset-4 ml-1"
               >
-                Book Discovery Call (+91 98101 21834) →
+                Connect on WhatsApp Desk (+91 98101 21834) →
               </a>
             </div>
 
@@ -852,15 +839,17 @@ Understand your goals, create the right financial strategy, and stay committed t
 
             <div className="mt-7 space-y-4 text-xs sm:text-sm text-blue-100">
               <a
-                href="tel:+919810121834"
-                className="flex items-center gap-3.5 hover:text-amber-300 transition group"
+                href="https://wa.me/919810121834?text=Hello%20FINVESTMENTS,%20I%20would%20like%20to%20inquire%20about%20your%20investment%20services."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3.5 hover:text-emerald-300 transition group"
               >
-                <div className="grid size-10 place-items-center rounded-xl bg-amber-400/15 text-amber-300 border border-amber-400/20 group-hover:scale-105 transition-transform">
-                  <Phone className="size-5" />
+                <div className="grid size-10 place-items-center rounded-xl bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 group-hover:scale-105 transition-transform">
+                  <Smartphone className="size-5" />
                 </div>
                 <div>
-                  <div className="text-[11px] text-amber-300 font-bold uppercase tracking-wider">Direct Phone & WhatsApp</div>
-                  <div className="font-extrabold text-white text-sm sm:text-base">+91 98101 21834 / 9810121834</div>
+                  <div className="text-[11px] text-emerald-400 font-bold uppercase tracking-wider">Official WhatsApp Desk</div>
+                  <div className="font-extrabold text-white text-sm sm:text-base">+91 98101 21834</div>
                 </div>
               </a>
 
@@ -1001,10 +990,9 @@ Understand your goals, create the right financial strategy, and stay committed t
                       <option value="Mutual Funds & Wealth Creation">Mutual Funds & Wealth Creation</option>
                       <option value="PMS, AIFs & SIF Distribution">PMS, AIFs & SIF Distribution</option>
                       <option value="GIFT City (IFSC) & SIF Investments">GIFT City (IFSC) & SIF Investments</option>
-                      <option value="Life & Health Insurance">Life & Health Insurance</option>
-                      <option value="Corporate Fixed Deposits">Corporate Fixed Deposits</option>
-                      <option value="Bonds & Sovereign Securities">Bonds & Sovereign Securities</option>
-                      <option value="Asset & General Insurance">Asset & General Insurance</option>
+                      <option value="Corporate Deposits & Bonds">Corporate Deposits & Bonds</option>
+                      <option value="Unlisted Shares & Private Equity">Unlisted Shares & Private Equity</option>
+                      <option value="Life, Health & General Insurance">Life, Health & General Insurance</option>
                       <option value="Loans & Financial Solutions">Loans & Financial Solutions</option>
                     </select>
                   </div>
@@ -1106,7 +1094,7 @@ Understand your goals, create the right financial strategy, and stay committed t
             © 2016 - 2026 FINVESTMENTS. All Rights Reserved. Invest | Grow | Protect.
           </span>
           <span>
-            Office: 511, 5th Floor, I-Thum Heights, Sector 62, Noida, UP – 201309 · Helpline: +91 98101 21834 · advice@finvestments.net
+            Office: 511, 5th Floor, I-Thum Heights, Sector 62, Noida, UP – 201309 · WhatsApp: +91 98101 21834 · Email: advice@finvestments.net
           </span>
         </div>
       </footer>

@@ -25,10 +25,9 @@ const SOLUTIONS_OPTIONS = [
   'Mutual Funds & Wealth Creation',
   'PMS, AIFs & SIF Distribution',
   'GIFT City (IFSC) & SIF Investments',
-  'Life & Health Insurance',
-  'Corporate Fixed Deposits',
-  'Bonds & Sovereign Securities',
-  'Asset & General Insurance',
+  'Corporate Deposits & Bonds',
+  'Unlisted Shares & Private Equity',
+  'Life, Health & General Insurance',
   'Loans & Financial Solutions'
 ]
 
