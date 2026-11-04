@@ -23,8 +23,8 @@ interface QuickInvestModalProps {
 
 const SOLUTIONS_OPTIONS = [
   'Mutual Funds & Wealth Creation',
-  'PMS & AIF Distribution',
-  'GIFT City & SIF – International Investment Solutions',
+  'PMS, AIF & SIF Distribution',
+  'GIFT City – International Investment Solutions',
   'Corporate Deposits & Bonds',
   'Unlisted Shares & Private Equity',
   'Life, Health & General Insurance',
