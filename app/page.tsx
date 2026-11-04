@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import {
   ArrowRight,
   BarChart3,
@@ -47,6 +48,7 @@ import FinancialCalculators from '@/components/FinancialCalculators'
 import PortfolioLoginModal from '@/components/PortfolioLoginModal'
 import QuickInvestModal from '@/components/QuickInvestModal'
 import GlobalPresenceSection from '@/components/GlobalPresenceSection'
+
 
 interface SolutionItem {
   icon: React.ElementType
@@ -1077,13 +1079,39 @@ Understand your goals, create the right financial strategy, and stay committed t
             </div>
 
             <div className="flex flex-wrap items-center gap-3 text-[11px] font-medium text-blue-200">
-              <a href="#disclosures" className="hover:text-amber-300 underline">SID / KIM Guidelines</a>
+              <a
+                href="https://www.sebi.gov.in/filings/mutual-funds.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-amber-300 underline"
+              >
+                SID / KIM Guidelines
+              </a>
               <span>•</span>
-              <a href="#disclosures" className="hover:text-amber-300 underline">AMFI Code of Conduct</a>
+              <a
+                href="/docs/code_of_conduct.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-amber-300 underline"
+              >
+                AMFI Code of Conduct
+              </a>
               <span>•</span>
-              <a href="#disclosures" className="hover:text-amber-300 underline">SEBI Investor Charter</a>
+              <a
+                href="https://www.amfiindia.com/investor-corner/investor-charter"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-amber-300 underline"
+              >
+                SEBI Investor Charter
+              </a>
               <span>•</span>
-              <a href="#disclosures" className="hover:text-amber-300 underline">Privacy & Security Policy</a>
+              <Link
+                href="/privacy-policy"
+                className="hover:text-amber-300 underline"
+              >
+                Privacy & Security Policy
+              </Link>
             </div>
           </div>
         </div>
