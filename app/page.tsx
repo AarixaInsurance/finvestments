@@ -93,7 +93,7 @@ const solutions: SolutionItem[] = [
   },
   {
     icon: Globe,
-    title: 'GIFT City – International Investment Solutions',
+    title: 'GIFT City & SIF – International Investment Solutions',
     subtitle: 'Cross-Border Wealth Structuring & Offshore Funds',
     text: 'Authorized distribution for GIFT City (Gujarat International Finance Tec-City IFSC) global funds and Specialised Investment Funds (SIF). Facilitating foreign currency (USD) overseas investments, inbound India allocations with full tax efficiency, and bespoke offshore structures for HNIs, NRIs and family offices.',
     tag: 'GIFT City & SIF',
@@ -103,8 +103,8 @@ const solutions: SolutionItem[] = [
       'Tax-optimized inbound & outbound cross-border wealth structures',
       'Bespoke offshore AIFs & international family office capital'
     ],
-    category: 'GIFT City – International Investment Solutions',
-    cta: 'Inquire About GIFT City (IFSC)',
+    category: 'GIFT City & SIF – International Investment Solutions',
+    cta: 'Inquire About GIFT City & SIF',
   },
   {
     icon: Landmark,
@@ -254,7 +254,7 @@ Office: 511, 5th Floor, I-Thum Heights, A-16, A Block, Industrial Area, Sector 6
 Our Core Financial Solutions:
 1. Mutual Funds & Wealth Creation (Goal SIPs, Portfolio Reviews, Rebalancing)
 2. PMS & AIF Distribution (Category II/III AIFs, Unlisted Equities, HNI Portfolios)
-3. GIFT City – International Investment Solutions (Authorized SIF Distributor, Offshore Funds, USD Global Assets)
+3. GIFT City & SIF – International Investment Solutions (Authorized SIF Distributor, Offshore Funds, USD Global Assets)
 4. Corporate Deposits & Bonds (Crisil AAA/AA+ Rated FDs, G-Sec, RBI Floating Rate Bonds)
 5. Unlisted Shares & Private Equity (Pre-IPO Deals, Unicorn Shares, Demat Transfer)
 6. Life, Health & General Insurance (Term Plans, Cashless Mediclaim, Fire, Marine, Fleet)
@@ -991,7 +991,7 @@ Understand your goals, create the right financial strategy, and stay committed t
                     >
                       <option value="Mutual Funds & Wealth Creation">Mutual Funds & Wealth Creation</option>
                       <option value="PMS & AIF Distribution">PMS & AIF Distribution</option>
-                      <option value="GIFT City – International Investment Solutions">GIFT City – International Investment Solutions</option>
+                      <option value="GIFT City & SIF – International Investment Solutions">GIFT City & SIF – International Investment Solutions</option>
                       <option value="Corporate Deposits & Bonds">Corporate Deposits & Bonds</option>
                       <option value="Unlisted Shares & Private Equity">Unlisted Shares & Private Equity</option>
                       <option value="Life, Health & General Insurance">Life, Health & General Insurance</option>
