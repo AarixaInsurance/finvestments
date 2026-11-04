@@ -10,8 +10,7 @@ import {
   ArrowRight,
   Plane,
   BadgeCheck,
-  PhoneCall,
-  Clock
+  PhoneCall
 } from 'lucide-react'
 import Image from 'next/image'
 
@@ -46,7 +45,7 @@ const COUNTRIES: CountryDetail[] = [
     name: 'United Kingdom',
     flag: '🇬🇧',
     city: 'London, Manchester',
-    popularServices: ['GIFT City (IFSC) Portfolio Planning', 'Alternative Investment Funds (AIFs & SIFs)', 'Fixed Income Bonds'],
+    popularServices: ['GIFT City (IFSC) Portfolio Planning', 'Alternative Investment Funds (AIFs)', 'Fixed Income Bonds'],
     timezone: 'GMT Desk',
   },
   {
@@ -205,21 +204,10 @@ export default function GlobalPresenceSection({
         {/* Selected Country Insight Card */}
         <div className="rounded-2xl border border-[#D4AF37]/30 bg-gradient-to-r from-[#0B2545] via-[#0F3460] to-[#0B2545] p-6 sm:p-8 shadow-xl">
           <div className="grid gap-6 md:grid-cols-12 items-center">
-            <div className="md:col-span-4 space-y-2 border-b md:border-b-0 md:border-r border-white/15 pb-4 md:pb-0 md:pr-6">
-              <div className="flex items-center gap-3">
-                <span className="text-4xl">{selectedCountry.flag}</span>
-                <div>
-                  <h3 className="text-xl font-extrabold text-white">{selectedCountry.name}</h3>
-                  <p className="text-xs text-amber-300 font-semibold">NRI Wealth & Advisory Desk</p>
-                </div>
-              </div>
-              <p className="text-xs text-blue-200 pt-1">
-                Major hubs served: <strong>{selectedCountry.city}</strong>
-              </p>
-              <div className="flex items-center gap-2 text-[11px] text-blue-300 bg-white/5 p-2 rounded-lg border border-white/10">
-                <Clock className="size-3.5 text-amber-400 shrink-0" />
-                <span>Synchronized Desk: {selectedCountry.timezone}</span>
-              </div>
+            <div className="md:col-span-4 border-b md:border-b-0 md:border-r border-white/15 pb-4 md:pb-0 md:pr-6">
+              <h3 className="text-lg md:text-xl font-extrabold text-amber-300">
+                NRI Wealth & Advisory Desk
+              </h3>
             </div>
 
             <div className="md:col-span-5 space-y-2">
@@ -236,14 +224,7 @@ export default function GlobalPresenceSection({
               </div>
             </div>
 
-            <div className="md:col-span-3 flex flex-col justify-center gap-2.5">
-              <button
-                onClick={() => onConnectNRI?.(selectedCountry.name)}
-                className="w-full flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#D4AF37] to-[#F59E0B] py-3 px-4 text-xs font-bold text-[#0B2545] shadow-md hover:brightness-105 transition cursor-pointer"
-              >
-                <span>Connect With {selectedCountry.name} Desk</span>
-                <ArrowRight className="size-4" />
-              </button>
+            <div className="md:col-span-3 flex items-center justify-center">
               <a
                 href="https://wa.me/919810121834?text=Hello%20FINVESTMENTS,%20I%20am%20an%20NRI%20looking%20for%20portfolio%20advisory%20in%20India."
                 target="_blank"
